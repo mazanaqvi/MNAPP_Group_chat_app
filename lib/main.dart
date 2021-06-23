@@ -33,9 +33,9 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Group Chats',
+      title: 'SocioMesh Chats',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData.light(),
+      theme: ThemeData.fallback(),
       darkTheme: ThemeData.dark(),
       //home: _isLoggedIn != null ? _isLoggedIn ? HomePage() : AuthenticatePage() : Center(child: CircularProgressIndicator()),
       home: _isLoggedIn ? HomePage() : AuthenticatePage(),

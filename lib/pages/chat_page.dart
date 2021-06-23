@@ -100,7 +100,7 @@ class _ChatPageState extends State<ChatPage> {
                           color: Colors.white
                         ),
                         decoration: InputDecoration(
-                          hintText: "Send a message ...",
+                          hintText: "Send a message in Socio Mesh...",
                           hintStyle: TextStyle(
                             color: Colors.white38,
                             fontSize: 16,

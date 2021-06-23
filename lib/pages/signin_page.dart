@@ -79,7 +79,7 @@ class _SignInPageState extends State<SignInPage> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: <Widget>[
-                  Text("Create or Join Groups", style: TextStyle(color: Colors.white, fontSize: 40.0, fontWeight: FontWeight.bold)),
+                  Text(" SocioMesh", style: TextStyle(color: Colors.white, fontSize: 40.0, fontWeight: FontWeight.bold)),
                 
                   SizedBox(height: 30.0),
                 
@@ -139,7 +139,7 @@ class _SignInPageState extends State<SignInPage> {
                       style: TextStyle(color: Colors.white, fontSize: 14.0),
                       children: <TextSpan>[
                         TextSpan(
-                          text: 'Register here',
+                          text: 'Register in SocioMesh',
                           style: TextStyle(
                             color: Colors.white,
                             decoration: TextDecoration.underline
